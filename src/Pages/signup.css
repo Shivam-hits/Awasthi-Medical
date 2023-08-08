@@ -1,0 +1,43 @@
+.signup_home{
+    margin: 100px 0 0 0;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+}
+.signup_container{
+    margin: 5px 0 0 15px;
+}
+.signup_Logo_image{
+    height: 35px;
+    width: 150px;
+}
+.signup_image{
+    height: 350px;
+    width: 400px;
+}
+.signup_form{
+    flex-direction: column;
+}
+.signup_field{
+    height: 30px;
+    width: 500px;
+    margin: 5px;
+    border-radius: 7px;
+}
+.signup_first_name ,.signup_last_name , .signup_phonenumber,.signup_pincode,.signup_state,.signup_city{
+    width: 200px;
+}
+.signup_form_names , .signup_form_details{
+    display: flex;
+    justify-content:space-bqetween;
+}
+.signup_submit{
+    margin: 10px 0 10px 0 ;
+    height: 30px;
+    width: 70px;
+    border-radius:7px ;
+    background-color: #FF6161;
+}
+.signup_to_login{
+    color: #FF6161;
+}

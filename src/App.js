@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter , Routes , Route } from "react-router-dom"
+import React from 'react'
+import HomePage from "../src/Pages/HomePage"
+import LoginPage from "../src/Pages/login.js"
+import SignUpPage from "./Pages/signup.js"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+
+      {/* ROUTING --> START */}
+      <Routes>
+        <Route path="/" element = {<HomePage/>}/>
+        <Route path="/login" element = {<LoginPage/>}/>
+        <Route path="/signup" element = {<SignUpPage/>}/>
+        <Route path="*" element = {<div> <h1>Error page (404 page not found)</h1> </div>}/>
+      </Routes>
+
+      {/* ROUTING --> END */}
+      {/*WE DON'T HAVE TO IMPORT PAGES INDIVIDUALLY BECAUSE IF WE DO IT WILL SHOW THE HOMEPAGE(or any other main page)
+      BELLOW THE REQUESTED PAGE */}
+    </BrowserRouter>
+    
+  )
 }
 
 export default App;

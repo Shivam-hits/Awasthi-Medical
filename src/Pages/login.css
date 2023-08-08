@@ -1,0 +1,43 @@
+.login_home{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.Login_container{
+    margin: 5px 0 0 15px;
+}
+.login_Logo_image{
+    height: 35px;
+    width: 150px;
+}
+.login_image{
+    height: 400px;
+    width: 450px;
+}
+.login_form{
+    margin: 20px 0 0 0;
+}
+.login_email_box{
+    height: 30px;
+    border-radius: 7px;
+}
+.login_submit_btn{
+    margin: 10px 0 10px 0 ;
+    height: 30px;
+    width: 70px;
+    border-radius:7px ;
+    background-color: #FF6161;
+}
+.login_signup{
+    color: #FF6161;
+}
+.login_with{
+    margin: 30px;
+}
+.login_with_image{
+    height: 40px;
+    width: 40px;
+}
+.login_with_btn{
+    background-color: white;
+    border: white;
+}

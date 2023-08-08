@@ -1,0 +1,10 @@
+.membership{
+    border-bottom: 2px solid #f1f4f6; /* it is used to represent the faint line at the bottom of the section */
+}
+.member_offer{
+    height: 150px;
+    width: 1480px;
+    color: white;
+    background-color: black;
+    margin: 20px;
+}

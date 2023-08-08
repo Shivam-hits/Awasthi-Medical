@@ -1,0 +1,77 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px 0 15px;
+    margin: 0;
+}
+.searchbox{
+    text-align: center;
+}
+.Logo{
+    height: 35px;
+    width: 150px;
+}
+.navbar_terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.service_list{
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+.service_list li{
+    padding: 0 4px 0 4px;
+}
+.basicservice_list{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+.basicservice_list li{
+    padding: 0 4px 0 4px;
+}
+.navbar_search{
+    display: flex;
+    justify-content: center;
+}
+#search_box{
+    border: 1px solid black;
+    background-color:floralwhite;
+    height: 35px;
+    width: 500px;
+    border-radius: 7px;
+}
+.offer, .login, .signup{
+    color:#ff6f61;
+
+}
+.navbar_all_options{
+    margin: 0 0 5px 0 ;
+    border-bottom: 2px solid #f1f4f6;
+}
+.navbar_all_options ul{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.navbar_all_options ul li{
+    padding: 0 4px 0 4px;
+}
