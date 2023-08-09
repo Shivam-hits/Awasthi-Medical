@@ -1,5 +1,8 @@
 .Brands{
-    margin: 20px 40px 20px 40px ;
+    margin: 10px 10px 10px 5px ;
+}
+.Brands p,div{
+    margin: 5px 0 0 0;
 }
 .brand_container{
     display: flex;
@@ -10,7 +13,6 @@
     text-align: center;
 }
 .brands_box{
-    
     height: 150px;
     width: 150px;
     /* margin: 20px; provide too much gap */
