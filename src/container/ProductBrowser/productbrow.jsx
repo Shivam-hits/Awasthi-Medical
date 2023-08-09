@@ -4,6 +4,8 @@ import "./productbrow.css"
 function Productbrowser() {
   return (
     <div className='productbrowser'>
+      <p className='product_heading'>Products</p>
+      <div className='products'>
         <ProBox />
         <ProBox />
         <ProBox />
@@ -12,6 +14,7 @@ function Productbrowser() {
         <ProBox />
         <ProBox />
         <ProBox />
+      </div>
     </div>
   )
 }

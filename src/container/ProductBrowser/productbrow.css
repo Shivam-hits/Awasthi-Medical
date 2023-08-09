@@ -1,4 +1,13 @@
-.productbrowser{
+.products{
     display: inline-flex;
+    
+}
+.productbrowser{
     margin: 10px 10px 10px 15px;
+}
+.productbrowser p{
+    margin: 0;
+}
+.product_heading{
+    text-align: center;
 }

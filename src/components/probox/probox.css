@@ -4,9 +4,10 @@
     /* height: 100px;
     width: 200px; */
     border: 1px solid black;
+    border-radius: 10px;
     display: table;
 }
-.ProductBox p,h3,h4{ 
+.ProductBox p,.ProductBox h3,.ProductBox h4{ 
     margin: 0;
 }
 .product_image{
