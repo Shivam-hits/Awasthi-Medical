@@ -3,6 +3,7 @@ import React from 'react'
 import HomePage from "../src/Pages/HomePage"
 import LoginPage from "../src/Pages/login.js"
 import SignUpPage from "./Pages/signup.js"
+import Productpage from "./Pages/Productpage"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element = {<HomePage/>}/>
         <Route path="/login" element = {<LoginPage/>}/>
         <Route path="/signup" element = {<SignUpPage/>}/>
+        <Route path="/Product page" element = {<Productpage/>}/> 
         <Route path="*" element = {<div> <h1>Error page (404 page not found)</h1> </div>}/>
       </Routes>
 
@@ -23,5 +25,4 @@ function App() {
     
   )
 }
-
 export default App;

@@ -1,6 +1,7 @@
 import React from 'react'
 import ProBox from "../../components/probox/probox.jsx"
 import "./productbrow.css"
+import {Link} from "react-router-dom"
 function Productbrowser() {
   return (
     <div className='productbrowser'>

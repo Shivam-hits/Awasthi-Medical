@@ -1,6 +1,7 @@
 import React from 'react'
 import product from "../../images/Pantop.jpg"
 import "./probox.css"
+import {Link} from "react-router-dom"
 function Probox() {
   function a(){
     alert("added to cart");
@@ -10,10 +11,10 @@ function Probox() {
     <div className='ProductBox'>
       <img src={product} className='product_image' alt="product" srcset="" />
       <div className='productBox_content'>
-        <h3 className='product_name'>Pantop D-SR tablets</h3>
+        <Link to="/Product page"><h3 className='product_name'>Pantop D-SR tablets</h3>
         <p className='quantity'>Strip of 10 tablets</p>
         <p className='MRP'> MRP.<s>300</s> <em className='discount'>10%</em> </p>
-        <h4 className='price'>RS.270</h4>
+        <h4 className='price'>RS.270</h4></Link>
         <button type="button" onclick="a()">+ Add to cart</button>
       </div>
     </div>
