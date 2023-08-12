@@ -20,5 +20,4 @@ function Probox() {
     </div>
   )
 }
-
 export default Probox;

@@ -19,5 +19,4 @@ function Productbrowser() {
     </div>
   )
 }
-
 export default Productbrowser;

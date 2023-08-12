@@ -21,8 +21,7 @@ function App() {
       {/* ROUTING --> END */}
       {/*WE DON'T HAVE TO IMPORT PAGES INDIVIDUALLY BECAUSE IF WE DO IT WILL SHOW THE HOMEPAGE(or any other main page)
       BELLOW THE REQUESTED PAGE */}
-    </BrowserRouter>
-    
+    </BrowserRouter> 
   )
 }
 export default App;
