@@ -1,5 +1,4 @@
 import React from 'react'
-import LoginPage from './login.js'
 import Header from "../container/header/header.jsx"
 import Banners from "../container/Banners/banners.jsx"
 import Membership from "../container/membership/membership.jsx"
@@ -13,8 +12,6 @@ function HomePage() {
         <Banners />
         <Membership/> 
         <Brands />
-        <Productbrowser />
-        <Productbrowser />
         <Productbrowser />
         <Productbrowser />
     </div>

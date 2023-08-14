@@ -54,12 +54,6 @@ function BrandAndManu() {
                     will map after wards.
                 </p>
             </div>
-            <div className='brands_box'>
-                <p>
-                    Brands start <br/>
-                    will map after wards.
-                </p>
-            </div>
         </div>
         
     </div>
