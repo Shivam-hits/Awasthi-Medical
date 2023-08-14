@@ -14,7 +14,6 @@ function Productbrowser() {
         <ProBox />
         <ProBox />
         <ProBox />
-        <ProBox />
       </div>
     </div>
   )

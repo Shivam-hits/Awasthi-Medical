@@ -14,6 +14,9 @@ function HomePage() {
         <Membership/> 
         <Brands />
         <Productbrowser />
+        <Productbrowser />
+        <Productbrowser />
+        <Productbrowser />
     </div>
 
   )

@@ -21,7 +21,8 @@ function Productpage() {
             <img src={product} className='product_page_image_main' alt="product" srcset="" />
           </div>
           <div className='product_details'>
-            <p>second part</p>
+            <h3>Pantop DSR</h3>
+            <p>Aristo Pharmaceuticals Pvt Ltd</p>
           </div>
           <div className='product_price'>
             <p>3rd part</p>
@@ -29,7 +30,7 @@ function Productpage() {
         </div>
         {/* second part for ads and description */}
         <div className='product_first_container_2'>
-
+          
         </div>
     </div>
   )

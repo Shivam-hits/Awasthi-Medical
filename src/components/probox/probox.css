@@ -15,3 +15,9 @@
     width: 150px;
     margin: 0 0 5px 0;
 }
+.cart_btn{
+    height: 30px;
+    width: 150px;
+    background-color: #ff6f61;
+    border: 1px solid #ff6f61;
+}
