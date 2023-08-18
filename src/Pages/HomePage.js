@@ -4,6 +4,7 @@ import Banners from "../container/Banners/banners.jsx"
 import Membership from "../container/membership/membership.jsx"
 import Brands from "../container/BrandAndManu/BrandAndManu.jsx"
 import Productbrowser from "../container/ProductBrowser/productbrow.jsx"
+import Footer from "../container/footer/footer.jsx"
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
         <Brands />
         <Productbrowser />
         <Productbrowser />
+        <Footer />
     </div>
 
   )
