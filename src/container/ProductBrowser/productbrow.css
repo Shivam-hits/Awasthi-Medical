@@ -1,6 +1,7 @@
 .products{
     display: flex;
     justify-content: center;
+    
 }
 .productbrowser{
     margin: 10px 10px 10px 15px;
