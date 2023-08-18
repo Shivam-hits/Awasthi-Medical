@@ -14,7 +14,9 @@ function App() {
         <Route path="/" element = {<HomePage/>}/>
         <Route path="/login" element = {<LoginPage/>}/>
         <Route path="/signup" element = {<SignUpPage/>}/>
-        <Route path="/Product page" element = {<Productpage/>}/> 
+        <Route path="/Productpage" element = {<Productpage/>}/>
+        <Route path="/Productpage/login" element = {<LoginPage/>}/>
+        <Route path="/Productpage/signup" element = {<SignUpPage/>}/>
         <Route path="*" element = {<div> <h1>Error page (404 page not found)</h1> </div>}/>
       </Routes>
 

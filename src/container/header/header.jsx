@@ -8,14 +8,13 @@ function Header() {
     <div className='navbar'>
         <div className='navbar_terms'>
             <div className='navbar_logo'>
-                <img src={logo} alt="LOGO" className='Logo' srcset="" />
+                <Link to="/"><img src={logo} alt="LOGO" className='Logo' srcset="" /></Link>
                 <ul className='service_list'>
                     <li>LAB TEST</li>
                     <li>FIRST AID</li>
                     <li>AYURVADIC</li>
                 </ul>
             </div>
-
 {/* to={{
     pathname: "/courses",
     search: "?sort=name",
