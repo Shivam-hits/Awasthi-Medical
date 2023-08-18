@@ -3,8 +3,10 @@ import Header from "../container/header/header"
 
 function Prescription() {
   return (
-    <div>prescription</div>
+    <div className='prescription_page'>
+        
+    </div>
   )
 }
 
-export default Prescription
+export default Prescription;
