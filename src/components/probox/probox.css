@@ -3,9 +3,11 @@
     padding: 5px;
     /* height: 100px;
     width: 200px; */
-    border: 1px solid black;
-    border-radius: 10px;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
     display: table;
+    height: 220px;
+    width: 170px;
 }
 .ProductBox p,.ProductBox h3,.ProductBox h4{ 
     margin: 0;
@@ -20,4 +22,12 @@
     width: 150px;
     background-color: #ff6f61;
     border: 1px solid #ff6f61;
+}
+.secondary{
+    color:#757575;
+}
+.ProductBox:hover{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

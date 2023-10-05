@@ -8,14 +8,22 @@ function Probox() {
   }
   return (
     <div className='ProductBox'>
-      <img src={product} className='product_image' alt="product" srcset="" />
-      <div className='productBox_content'>
-        <Link to="/Productpage"  style={{ textDecoration: 'none' , color:"#FF6f61"}}><h3 className='product_name'>Pantop D-SR tablets</h3></Link>
-        <p className='quantity'>Strip of 10 tablets</p>
-        <p className='MRP'> MRP.<s>300</s> <em className='discount'>10%</em> </p>
-        <h4 className='price'>RS.270</h4>
-        <button type="submit" className='cart_btn' onClick={a}>+ Add to cart</button>
+      {/* product image */}
+      <div>
+        <img src={product} className='product_image' alt="product" srcset="" />
       </div>
+      {/* product details */}
+      <div className='productBox_content'>
+        <Link to="/Productpage"  style={{ textDecoration: 'none' , color:"#FF6f61"}}><h3 className='product_name main'>Pantop D-SR tablets</h3></Link>
+        <p className='quantity secondary'>Strip of 10 tablets</p>
+        <p className='MRP secondary'> MRP.<s>300</s> <em className='discount'>10%</em> </p>
+        <h4 className='price'>RS.270</h4>
+      </div>
+      {/* add to cart button */}
+      {/* <div>
+        <button type="submit" className='cart_btn' onClick={a}>+ Add to cart</button>
+      </div> */}
+      
     </div>
   )
 }
