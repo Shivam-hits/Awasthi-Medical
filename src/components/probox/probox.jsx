@@ -13,10 +13,16 @@ function Probox() {
         <img src={product} className='product_image' alt="product" srcset="" />
       </div>
       {/* product details */}
-      <div className='productBox_content'>
+      
+      <div className='product_details'>
         <Link to="/Productpage"  style={{ textDecoration: 'none' , color:"#FF6f61"}}><h3 className='product_name main'>Pantop D-SR tablets</h3></Link>
         <p className='quantity secondary'>Strip of 10 tablets</p>
-        <p className='MRP secondary'> MRP.<s>300</s> <em className='discount'>10%</em> </p>
+        
+      </div>
+
+      {/* product price */}
+      <div className='product_price'>
+        <p className='MRP secondary'> MRP.<s>300</s> <em className='discount'  style={{ textDecoration: 'none' , color:"#FF6f61"}}>10%</em> </p>
         <h4 className='price'>RS.270</h4>
       </div>
       {/* add to cart button */}

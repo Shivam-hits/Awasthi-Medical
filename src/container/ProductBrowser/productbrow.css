@@ -4,7 +4,10 @@
     gap: 10px;
 }
 .productbrowser{
-    margin: 10px 10px 10px 15px;
+    background-color: 	#F9F6EE;
+    border-bottom: 2px solid #f1f4f6;
+
+    /* margin: 10px 10px 10px 15px; */
 }
 .productbrowser p{
     margin: 0;

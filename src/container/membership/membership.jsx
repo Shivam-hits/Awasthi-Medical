@@ -7,7 +7,6 @@ function Membership() {
         <div className='member_offer'>
             <p>But our memberhip for free del and extra discount</p>
         </div>
-
     </div>
   )
 }
