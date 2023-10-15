@@ -1,6 +1,6 @@
 .product_first_container_1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 15px 0 0 35px;
 }
 /* .product_page_image2,.product_page_image3,.product_page_image4,.product_page_image5{

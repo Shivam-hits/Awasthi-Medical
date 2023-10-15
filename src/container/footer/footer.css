@@ -3,7 +3,8 @@
     justify-content: space-evenly;
     height: 100%;
     width: 100%;
-    background-color: #F9F6EE;
+    background-color: black;
+    color: white;
 }
 .footer_container_second{
     display: contents;
