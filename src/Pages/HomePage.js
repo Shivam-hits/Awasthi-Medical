@@ -14,6 +14,7 @@ function HomePage() {
         <Membership/> 
         <Brands />
         <Productbrowser />
+        <Productbrowser />
         <Footer />
     </div>
 

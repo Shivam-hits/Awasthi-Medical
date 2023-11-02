@@ -32,7 +32,7 @@ function Productpage() {
           <div className='product_price'>
 
             <div className='without_membershp'>
-              <p>Rs.150</h2>
+              <h2>Rs.150</h2>
             </div>
 
             <div className='with_membershp'>
