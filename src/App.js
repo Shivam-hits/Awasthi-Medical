@@ -4,6 +4,7 @@ import HomePage from "../src/Pages/HomePage"
 import LoginPage from "../src/Pages/login.js"
 import SignUpPage from "./Pages/signup.js"
 import Productpage from "./Pages/Productpage"
+import About from "./Pages/About.js"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element = {<HomePage/>}/>
         <Route path="/login" element = {<LoginPage/>}/>
         <Route path="/signup" element = {<SignUpPage/>}/>
+        <Route path="/About" element = {<About/>}/>
         <Route path="/Productpage" element = {<Productpage/>}/>
         <Route path="/Productpage/login" element = {<LoginPage/>}/>
         <Route path="/Productpage/signup" element = {<SignUpPage/>}/>

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./footer.css"
-
+import {Link} from "react-router-dom"
+import About from "../../Pages/About.js"
+ 
 function Footer() {
   return (
     <div className='footer_container'>
@@ -42,7 +44,7 @@ function Footer() {
                 <div className='footer_catogaries_list'>
                     <ul>
                         <li>Sell at AMH</li>
-                        <li>About As</li>
+                        <Link to="/About"><li>About As</li></Link>
                         <li>Careers</li>
                     </ul>
                 </div>
