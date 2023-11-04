@@ -24,7 +24,7 @@ function Login() {
           {/* password will apear in next section it user is present then password page will appear if not the signup page will appear  */}
 
           <button className='login_submit_btn'>Login</button>
-          <p className="">New customer? <Link className="login_signup" to="/signup">Sign Up</Link> </p>
+          <p className="new_user">New customer? <Link className="login_signup" to="/signup">Sign Up</Link> </p>
         </form>
 
         <div className='login_with'>
