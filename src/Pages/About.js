@@ -9,6 +9,10 @@ function About() {
         <div className='about_banner'>
           From last 26 years we make healthcare more Affordable and Accessible.
         </div>
+
+
+        {/* -------------- Leaders------------------ */}
+        <h3>Leadership</h3>
         <div className='about_leaders'>
           <div>
             <h2>Amod Kumar awasthi</h2>
@@ -23,6 +27,8 @@ function About() {
             <span>C.T.O</span>
           </div>
         </div>
+        {/* ----------------------------------------*/}
+
       </div>
     </div>
   )
