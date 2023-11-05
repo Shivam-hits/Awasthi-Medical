@@ -10,6 +10,10 @@ function About() {
           From last 26 years we make healthcare more Affordable and Accessible.
         </div>
 
+        <div className="">
+
+        </div>
+
 
         {/* -------------- Leaders------------------ */}
         <h3>Leadership</h3>
