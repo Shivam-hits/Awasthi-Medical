@@ -9,11 +9,10 @@ import Footer from "../container/footer/footer.jsx"
 function HomePage() {
   return (
     <div>
-        <Header />
+        <Header  />
         <Banners />
         <Membership/> 
         <Brands />
-        <Productbrowser />
         <Productbrowser />
         <Footer />
     </div>

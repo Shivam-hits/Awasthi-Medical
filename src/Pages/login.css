@@ -10,15 +10,17 @@
     width: 150px;
 }
 .login_image{
-    height: 400px;
-    width: 450px;
+    height: 500px;
+    width: 550px;
 }
 .login_form{
     margin: 20px 0 0 0;
 }
 .login_email_box{
     height: 30px;
-    border-radius: 7px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px 0 0 0;
 }
 .login_submit_btn{
     margin: 10px 0 10px 0 ;
@@ -30,9 +32,7 @@
 .login_signup{
     color: #FF6161;
 }
-.login_with{
-    margin: 30px;
-}
+
 .login_with_image{
     height: 40px;
     width: 40px;
@@ -40,4 +40,7 @@
 .login_with_btn{
     background-color: white;
     border: white;
+}
+.new_user{
+    margin: 10px 0 0 0 ;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./membership.css"
 
-function Membership() {
+function Membership(){
   return (
     <div className='membership'>
         <div className='member_offer'>
@@ -10,4 +10,5 @@ function Membership() {
     </div>
   )
 }
+
 export default Membership;
