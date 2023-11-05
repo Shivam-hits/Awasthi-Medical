@@ -1,7 +1,6 @@
 import React from 'react'
 import "./footer.css"
 import {Link} from "react-router-dom"
-import About from "../../Pages/About.js"
  
 function Footer() {
   return (
