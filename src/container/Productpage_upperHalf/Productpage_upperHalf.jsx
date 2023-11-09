@@ -2,7 +2,7 @@ import React from 'react'
 import product from "../../images/Pantop.jpg"
 import "./Productpage_upperHalf.css"
 
-function Productpage_upperHalf() {
+function Productpage_upperHalf(){
   return (
     <div className='productPage_upperHalf_container'>
       {/* 1st part of product page */}
@@ -21,14 +21,14 @@ function Productpage_upperHalf() {
         <p>Aristo Pharmaceuticals Pvt Ltd</p>
       </div>
       {/* 3rd part */}
-      <div className='product_price'>
+      <div className='product_price_box'>
         <div className='without_membershp'>
           <input type="checkbox"  id="checkbox" />
-          <span>₹.150</span>
+          <h2 className='price'>₹ 150</h2>
         </div>
         <div className='with_membership'>
           <input type="checkbox" name="" id="" />
-          <span>₹.150 <small>care plane</small></span>
+          <h2 className='price'>₹ 150</h2>
         </div>
         <div className='product_cart_btn'>
           <p>Add To Cart</p>
