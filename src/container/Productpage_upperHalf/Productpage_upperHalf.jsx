@@ -21,19 +21,44 @@ function Productpage_upperHalf(){
         <p>Aristo Pharmaceuticals Pvt Ltd</p>
       </div>
       {/* 3rd part */}
+
       <div className='product_price_box'>
+
         <div className='without_membershp'>
           <input type="checkbox"  id="checkbox" />
           <h2 className='price'>₹ 150</h2>
         </div>
+
         <div className='with_membership'>
           <input type="checkbox" name="" id="" />
           <h2 className='price'>₹ 150</h2>
         </div>
+
+        <select name="quantity" id="product_quantity">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+        </select>
+        <p className="product_no_tablets">strip of 10 tables</p>
+
         <div className='product_cart_btn'>
           <p>Add To Cart</p>
         </div>
+
       </div>
+
     </div>
   )
 }

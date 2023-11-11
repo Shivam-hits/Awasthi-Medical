@@ -37,6 +37,16 @@
   width: 400px;
   padding: 5px;
 }
+#product_quantity{
+  height: 30px;
+  width: 100px;
+  /* padding: 2px 5px 2px 5px ; */
+  text-align: center;
+}
+.product_no_tablets{
+  display: inline-flex;
+  margin: 0 0 10px 5px;
+}
 
 /* check box styling */
 
