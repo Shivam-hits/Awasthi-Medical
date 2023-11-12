@@ -7,7 +7,9 @@ function Probox() {
     alert("added to cart");
   }
   return (
+    <Link to="/Productpage"  style={{ textDecoration: 'none' , color:"#FF6f61"}}>
     <div className='ProductBox'>
+      
       {/* product image */}
       <div>
         <img src={product} className='product_image' alt="product" srcset="" />
@@ -15,9 +17,8 @@ function Probox() {
       {/* product details */}
       
       <div className='product_details'>
-        <Link to="/Productpage"  style={{ textDecoration: 'none' , color:"#FF6f61"}}><h3 className='product_name main'>Pantop D-SR tablets</h3></Link>
+       <h3 className='product_name main'>Pantop D-SR tablets</h3>
         <p className='quantity secondary'>Strip of 10 tablets</p>
-        
       </div>
 
       {/* product price */}
@@ -31,6 +32,7 @@ function Probox() {
       </div> */}
       
     </div>
+    </Link>
   )
 }
 export default Probox;

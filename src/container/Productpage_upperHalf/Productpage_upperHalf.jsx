@@ -26,6 +26,7 @@ function Productpage_upperHalf(){
 
       {/* 3rd part */}
       <div className='3rdPart'>
+        {/*product price box */}
         <div className='product_price_box'>
           <div className='without_membershp'>
             <input type="checkbox"  id="checkbox" />
