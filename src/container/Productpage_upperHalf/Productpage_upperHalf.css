@@ -34,7 +34,8 @@
 .product_price_box{
   border: 1px solid black;
   border-radius: 10px;
-  width: 400px;
+  width: 487px;
+  height: 204px;
   padding: 5px;
 }
 #product_quantity{
@@ -46,6 +47,12 @@
 .product_no_tablets{
   display: inline-flex;
   margin: 0 0 10px 5px;
+}
+.product_page_ads{
+  height: 120px;
+  width: 500px;
+  padding: 0;
+  margin: 10px 0 0 0;
 }
 
 /* check box styling */
