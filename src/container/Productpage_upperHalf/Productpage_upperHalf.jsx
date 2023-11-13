@@ -35,7 +35,7 @@ function Productpage_upperHalf(){
 
           <div className='with_membership'>
             <input type="checkbox" name="" id="" />
-            <h2 className='price'>₹ 150</h2>
+            <h2 className='price'>₹ 20 </h2><small>Plus care plane</small>
           </div>
 
           <select name="quantity" id="product_quantity">
