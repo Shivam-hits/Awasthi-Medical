@@ -36,10 +36,9 @@
   width: 487px;
   height: 204px;
   padding: 5px;
-  /* box-shadow: 0px 6px 15px -5px rgba(64,64,64,1); */
   box-shadow: 0 2px 4px #ddd;
-  /* -webkit-box-shadow: 0px 6px 15px -5px rgba(64,64,64,1); */
-  /* -moz-box-shadow: 0px 6px 15px -5px rgba(64,64,64,1); */
+  -webkit-box-shadow:  0 2px 4px #ddd;
+  -moz-box-shadow:  0 2px 4px #ddd;
 }
 #product_quantity{
   height: 30px;
@@ -57,8 +56,32 @@
   padding: 0;
   margin: 10px 0 0 0;
   border-radius: 4px;
-  
 }
+.Part_2nd h1,h2,h3,h4,h5,h6,p{
+  padding: 0px;
+  margin: 0px;
+}
+.Part_2nd .product_title{
+  font-weight: 600;
+}
+.Part_2nd .manufacturer{
+  font-weight: 500;
+  font-size:14px;
+  color: #616161;
+  text-transform: uppercase;
+}
+.Part_2nd .salt{
+  font-weight: 500;
+  font-size:14px;
+  color: #616161;
+  text-transform: uppercase;
+}
+.about_manufacturer ,.about_salt{
+  margin: 20px 0 20px 0;
+}
+
+
+
 
 /* check box styling */
 

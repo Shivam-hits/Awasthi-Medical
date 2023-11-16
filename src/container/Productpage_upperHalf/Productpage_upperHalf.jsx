@@ -16,10 +16,23 @@ function Productpage_upperHalf(){
         </div>
         <img src={product} className='product_page_image_main' alt="product" srcset="" />
       </div>
+      
       {/* 2nd part of product page */}
-      <div className='product_details 2ndPart'>
-        <h3>Pantop DSR</h3>
-        <p>Aristo Pharmaceuticals Pvt Ltd</p>
+      <div className='product_details Part_2nd'>
+
+        <h1 className='product_title'>Pantop DSR</h1>
+
+        <div className='about_manufacturer'>
+          <h3 className='manufacturer'>Manufacturer</h3>
+          <p className='manufacturer_name'>Aristo Pharmaceuticals Pvt Ltd</p>
+        </div>
+        
+        
+        <div className='about_salt'>
+          <h3 className='salt'>SALT COMPOSITION</h3>
+          <p className='salt_name'> Domperidone (30mg) + Pantoprazole (40mg)</p>
+        </div>
+
       </div>
       {/* 2nd part ends here */}
 
