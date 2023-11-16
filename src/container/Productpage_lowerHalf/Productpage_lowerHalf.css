@@ -4,4 +4,11 @@
 .Productpage_lowerHalf{
     display: flex;
     flex-direction: row;
+    background-color: #666;
+}
+.Productpage_lowerHalf .part1{
+    width: 50%;
+    margin: 0 0 0 158px;
+    border: 5px solid black;
+    background-color:white ;
 }
