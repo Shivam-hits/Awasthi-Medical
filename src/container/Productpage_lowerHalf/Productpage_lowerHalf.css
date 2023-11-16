@@ -1,0 +1,7 @@
+.description{
+    text-transform: uppercase;
+}
+.Productpage_lowerHalf{
+    display: flex;
+    flex-direction: row;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from "../container/header/header.jsx"
 import "./Productpage.css"
 import Productpage_upperHalf from "../container/Productpage_upperHalf/Productpage_upperHalf.jsx"
+import Productpage_lowerHalf from "../container/Productpage_lowerHalf/Productpage_lowerHalf.jsx"
 
 function Productpage() {
   return (
@@ -11,9 +12,7 @@ function Productpage() {
         <Productpage_upperHalf/>
 
         {/* second part for ads and description */}
-        <div className='product_first_container_2'>
-          
-        </div>
+        <Productpage_lowerHalf/>
     </div>
   )
 }
