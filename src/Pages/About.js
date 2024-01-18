@@ -6,15 +6,21 @@ function About() {
     <div >
       <Header />
       <div className='about_container'>
-        
-        <div className='about_banner'>
+
+        {/* <div className='about_banner'>
           From last 26 years we make healthcare more Affordable and Accessible.
-        </div>
+        </div> */}
 
         <div className="mission">
 
           <div>
-            <h1 className='title'>Our Mission</h1>
+            
+            <div>
+              <h5>About Us</h5>
+              <h1 className='title'>Our Mission</h1>
+              <h3>From last 26 years we make healthcare more Affordable and Accessible.</h3>
+            </div>
+            
             <p>              
               Our mission at Awasthi is to empower individuals on their journey to optimal health.<br/>
               We are dedicated to providing a comprehensive and accessible platform that transcends<br/>
@@ -32,7 +38,7 @@ function About() {
 
 
         {/* -------------- Leaders------------------ */}
-        <h3>Leadership</h3>
+        <h3 className="Leaders">Leadership</h3>
         <div className='about_leaders'>
           <div>
             <h2>Amod Kumar awasthi</h2>
