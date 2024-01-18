@@ -6,11 +6,27 @@ function About() {
     <div >
       <Header />
       <div className='about_container'>
+        
         <div className='about_banner'>
           From last 26 years we make healthcare more Affordable and Accessible.
         </div>
 
-        <div className="">
+        <div className="mission">
+
+          <div>
+            <h1 className='title'>Our Mission</h1>
+            <p>              
+              Our mission at Awasthi is to empower individuals on their journey to optimal health.<br/>
+              We are dedicated to providing a comprehensive and accessible platform that transcends<br/>
+              traditional boundaries,connecting you to the latest innovations in healthcare.<br/>
+              Our commitment extends beyond being a mere e-commerce platform; we aspire to be your <br/>
+              reliable health partner.
+            </p>
+          </div>
+
+          <div>
+            <p>IMAGES</p>
+          </div>
 
         </div>
 

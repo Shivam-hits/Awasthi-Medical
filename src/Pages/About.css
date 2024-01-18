@@ -1,6 +1,6 @@
-.about_container{
+/* .about_container{
     text-align: center;
-}
+} */
 .about_leaders{
     display: flex;
     justify-content: center;
@@ -8,4 +8,8 @@
 }
 .about_leaders span{
     margin: 130px;
+}
+.mission{
+    display: flex;
+    flex-direction: row;
 }
