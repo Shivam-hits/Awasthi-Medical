@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "../container/header/header.jsx"
 import "./About.css"
+import demo from "../images/people/peoo.jpg"
 function About() {
   return (
     <div >
@@ -11,11 +12,11 @@ function About() {
           From last 26 years we make healthcare more Affordable and Accessible.
         </div> */}
 
-        <div className="mission">
+        <div className="about_us_mission">
 
-          <div>
+          <div className='about_us_text'>
             
-            <div>
+            <div className='about_us_text_1st_para'>
               <h5>About Us</h5>
               <h1 className='title'>Our Mission</h1>
               <h3>From last 26 years we make healthcare more Affordable and Accessible.</h3>
@@ -28,10 +29,11 @@ function About() {
               Our commitment extends beyond being a mere e-commerce platform; we aspire to be your <br/>
               reliable health partner.
             </p>
+
           </div>
 
-          <div>
-            <p>IMAGES</p>
+          <div className='about_us_image_container'>
+            <img className='about_us_main_image' src={demo}></img>
           </div>
 
         </div>

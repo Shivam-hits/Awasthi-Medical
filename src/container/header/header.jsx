@@ -25,8 +25,7 @@ function Header() {
             <div className='navbar_basicservice'>
                 <ul className='basicservice_list'>
                     <li className='offer'>Offers</li>
-                    <li><Link  className='login' to="./login">Login</Link>|</li>
-                    <li><Link className='signup' to="./signup" >Signup</Link></li>
+                    <li><Link className='login' to="./login">Login</Link>|<Link className='signup' to="./signup">SignUp</Link></li>
                     <li>Cart</li>
                 </ul>
             </div>

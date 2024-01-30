@@ -9,15 +9,22 @@
 .about_leaders span{
     margin: 130px;
 }
-.mission{
+.about_us_mission{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.mission h1{
+.about_us_mission  h1,h2,h3,h4,h5{
     margin: 0;
     padding: 0;
 }
 .Leaders{
     text-align: center;
+}
+.about_us_main_image{
+    height: 400px;
+    width: 500px;
+}
+.about_us_text{
+    transform: translateY(20%);/* To vertically align a paragraph  */
 }
