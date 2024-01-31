@@ -2,11 +2,13 @@ import React from 'react'
 import Header from "../container/header/header.jsx"
 import "./About.css"
 import demo from "../images/people/peoo.jpg"
+import L1 from "../images/people/cto.jpg"
+import L2 from "../images/people/leader.jpg"
 function About() {
   return (
     <div >
       <Header />
-      <div className='about_container'>
+      <div className='about_us_container'>
 
         {/* <div className='about_banner'>
           From last 26 years we make healthcare more Affordable and Accessible.
@@ -41,18 +43,27 @@ function About() {
 
         {/* -------------- Leaders------------------ */}
         <h3 className="Leaders">Leadership</h3>
-        <div className='about_leaders'>
-          <div>
-            <h2>Amod Kumar awasthi</h2>
-            <span>Founder</span>
+        <div className='about_leaders_container'>
+          <div className='about_leader'>
+            <div>
+              <h2>Amod Kumar awasthi</h2>
+              <span>Founder</span>
+            </div>
+            <img src={L2} className='founder'></img>
           </div>
           <div>
-            <h2>Pramod Kumar awasthi</h2>
-            <span>Founder</span>
+            <div>
+              <h2>Pramod Kumar awasthi</h2>
+              <span>Founder</span>
+            </div>
+            <img src={demo} className='founder'></img>
           </div>
           <div>
-            <h2>Shivam awasthi</h2>
-            <span>C.T.O</span>
+            <div>
+              <h2>Shivam awasthi</h2>
+              <span>C.T.O</span>
+            </div>
+            <img src={L1} className='founder cto'></img>
           </div>
         </div>
         {/* ----------------------------------------*/}

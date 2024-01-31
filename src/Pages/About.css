@@ -1,18 +1,19 @@
 /* .about_container{
     text-align: center;
 } */
-.about_leaders{
+.about_leaders_container{
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.about_leaders span{
+.about_leaders_container span{
     margin: 130px;
 }
 .about_us_mission{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-image: url("../images/1st.jpg");
 }
 .about_us_mission  h1,h2,h3,h4,h5{
     margin: 0;
@@ -23,8 +24,14 @@
 }
 .about_us_main_image{
     height: 400px;
-    width: 500px;
+    width: 400px;
 }
 .about_us_text{
-    transform: translateY(20%);/* To vertically align a paragraph  */
+    /* transform: translateY(20%);To vertically align a paragraph  */
+    padding-top:100px;
+}
+.founder{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
 }
