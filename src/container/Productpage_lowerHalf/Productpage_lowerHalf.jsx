@@ -1,8 +1,11 @@
 import React from 'react'
 import "./Productpage_lowerHalf.css"
+import Product_page_services from "../../components/product_page_services/product_page_services.jsx"
+
 function Productpage_lowerHalf() {
   return (
-    <div className='Productpage_lowerHalf'>
+    <div className='productpage_lowerHalf'>
+
         <div className='part1 product_description'>
             <h2 className='description'>product description</h2>
             <p>Pantop 40 Tablet is a medicine that reduces the amount of acid produced in your stomach. It is used for treating acid-related diseases of the stomach and intestine such as heartburn, acid reflux, peptic ulcer disease, and Zollinger-Ellison syndrome. It provides relief from the symptoms and promotes healing.
@@ -22,9 +25,11 @@ function Productpage_lowerHalf() {
             </div>
             
         </div>
-        <div className='part2 servies'> 
-            <h1>services</h1>
+
+        <div className='part2 product_description'>
+            <Product_page_services />
         </div>
+        
     </div>
   )
 }

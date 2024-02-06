@@ -1,14 +1,18 @@
-.description{
+ .description{
     text-transform: uppercase;
 }
-.Productpage_lowerHalf{
-    display: flex;
-    flex-direction: row;
+.productpage_lowerHalf{
     background-color: #666;
+    display : flex;
+    justify-content: space-evenly;
+    padding: 15px 0 0 35px;
 }
-.Productpage_lowerHalf .part1{
-    width: 50%;
-    margin: 0 0 0 158px;
+.productpage_lowerHalf .part1{
+    width: 55%;
     border: 5px solid black;
     background-color:white ;
+}
+.productpage_lowerHalf .part2{
+    width: 30%;
+    word-wrap: break-word;
 }
