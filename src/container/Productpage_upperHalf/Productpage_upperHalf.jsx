@@ -2,6 +2,7 @@ import React from 'react'
 import product from "../../images/Pantop.jpg"
 import "./Productpage_upperHalf.css"
 import ads from "../../images/ads.png"
+import Product_page_offer from "../../components/product_page_offers/product_page_offers.jsx"
 
 function Productpage_upperHalf(){
   return (
@@ -76,9 +77,10 @@ function Productpage_upperHalf(){
         </div>
         
         <img src={ads} className='product_page_ads' alt="" srcset="" />
+        <Product_page_offer/>
       </div>
       {/* 3rd end here  */}
-
+      
     </div>
   )
 }

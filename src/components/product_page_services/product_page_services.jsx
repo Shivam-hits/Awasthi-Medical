@@ -4,7 +4,7 @@ import "./product_page_services.css"
 function Product_page_services(){
     return(
         <div className="product_page_services_container">
-            <p>asdasdsadddddsssssssssssaaaaaaaaaaaaaaaaaaerrrrrrrrrRRRRRRRRRRRRRRRRRssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssddddd</p>
+            <p>hello world </p>
         </div>
     )
 }

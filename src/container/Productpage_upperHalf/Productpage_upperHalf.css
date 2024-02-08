@@ -4,7 +4,8 @@
   margin: 15px 0 0 35px;
 }
 .product_image_secondary{
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 .price{
   display: inline-flex;
