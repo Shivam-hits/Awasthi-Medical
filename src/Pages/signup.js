@@ -37,7 +37,7 @@ function SignUp() {
           </div>
           <input className='signup_address signup_field' placeholder='Address' type="textarea"/><br/>
           <button className='signup_submit'>Sign up</button>
-          <p>Already a customer<Link className='signup_to_login' to="/login">Login</Link></p>
+          <p>Already a customer? <Link className='signup_to_login' to="/login">Login</Link></p>
           {/* <p>Already a customer?<em className='signup_to_login' onClick={()=> goToPage()}>Login</em></p>  --> Using useNavigate hook  */ } 
         </div>
       </div>

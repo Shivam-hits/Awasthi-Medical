@@ -37,7 +37,12 @@
     width: 70px;
     border-radius:7px ;
     background-color: #FF6161;
+    border-width: 0;
+    cursor: pointer;
+    color: white;
+    
 }
 .signup_to_login{
     color: #FF6161;
+    text-decoration: none;
 }
