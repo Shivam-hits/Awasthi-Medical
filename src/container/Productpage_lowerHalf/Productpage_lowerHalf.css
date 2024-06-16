@@ -2,10 +2,10 @@
     text-transform: uppercase;
 }
 .productpage_lowerHalf{
-    background-color: #666;
+    /* background-color: #666; */
     display : flex;
     justify-content: space-evenly;
-    padding: 15px 0 0 35px;
+    padding: 50px 0 0 35px;
 }
 .productpage_lowerHalf .part1{
     width: 55%;

@@ -1,7 +1,8 @@
 .productPage_upperHalf_container{
   display: flex;
   justify-content: space-evenly;
-  margin: 15px 0 0 35px;
+  margin: 45px 0 0 35px;
+  height: 450px;
 }
 .product_image_secondary{
   display: flex;
@@ -13,7 +14,7 @@
 .product_page_image{
   width: 80px;
   height: 50px;
-  margin: 0;
+  margin: 15px 0 0 0;
   padding: 0;
 }
 .product_page_image_main{
