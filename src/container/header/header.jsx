@@ -26,7 +26,15 @@ function Header() {
                 <ul className='basicservice_list'>
                     <li className='offer'>Offers</li>
                     <li><Link className='login' to="./login">Login</Link>|<Link className='signup' to="./signup">SignUp</Link></li>
-                    <li>Cart</li>
+                    <li>
+                        {/* <img src="" alt="" /> FOR ICON */}
+                        {/* <span className='cart_count'>3</span> */}
+                        Cart
+                    </li>
+                    <li>
+                        {/* <img src="" alt="" /> FOR ICON */}
+                        Account
+                    </li>
                 </ul>
             </div>
         </div>
