@@ -77,3 +77,66 @@ img{
 #radio7:checked ~ .first{
     margin-left: -600%;
 }
+
+/* ================================================================ */
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    display: none; /* Hide all slides by default */
+}
+
+.slide.active {
+    display: block; /* Show the active slide */
+}
+
+.slide img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
