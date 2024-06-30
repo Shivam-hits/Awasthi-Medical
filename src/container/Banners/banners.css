@@ -89,9 +89,9 @@ body {
     position: relative;
     width: 80%;
     max-width: 800px;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     overflow: hidden;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     border-radius: 10px;
 }
 

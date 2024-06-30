@@ -94,23 +94,31 @@ function Banners() {
   }
 
   return (
-    <div className="slider">
-      <div className="slider-wrapper">
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className={`slide ${index === currentSlide ? 'active' : ''}`}
-            // ref={el => (slideRefs.current[index] = el)}
-          >
-            <img src={image} alt={`Product ${index + 1}`} />
-            <h2>Product {index + 1}</h2>
-            <p>Description of Product {index + 1}.</p>
-          </div>
-        ))}
+    <div className='banners'>
+      <div className="slider">
+        <div className="slider-wrapper">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className={`slide ${index === currentSlide ? 'active' : ''}`}
+              // ref={el => (slideRefs.current[index] = el)}
+            >
+              <img src={image} alt={`Product ${index + 1}`} />
+              {/* <h2>Product {index + 1}</h2>
+              <p>Description of Product {index + 1}.</p> */}
+            </div>
+          ))}
+        </div>
+        <button className="prev" onClick={() => changeSlide(-1)}>&#10094;</button>
+        <button className="next" onClick={() => changeSlide(1)}>&#10095;</button>
+
       </div>
-      <button className="prev" onClick={() => changeSlide(-1)}>&#10094;</button>
-      <button className="next" onClick={() => changeSlide(1)}>&#10095;</button>
+
+      {/* <div className='presc'>
+          <p>prescription upload</p>
+      </div> */}
     </div>
+    
   );
 }
 
