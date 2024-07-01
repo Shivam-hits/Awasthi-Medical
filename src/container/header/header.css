@@ -57,7 +57,7 @@
 }
 .offer, .login, .signup{
     color:#ff6f61;
-
+    text-decoration: none;
 }
 .navbar_all_options{
     margin: 0 0 5px 0 ;
@@ -92,10 +92,14 @@
 }
 .account_bropdown_menu li{
     width: 100%;
+    
     list-style: none;
 }
 .account_bropdown_menu li button{
     width: 100%;
+    font-size: small;
+    font-weight: 400;
+    color: black;
     text-align: left !important;
     justify-content: flex-start !important;
 }

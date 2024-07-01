@@ -31,7 +31,7 @@ function Header() {
             <div className='navbar_basicservice'>
                 <ul className='basicservice_list'>
                     <li className='offer'>Offers</li>
-                    <li><Link className='login' to="./login">Login</Link>|<Link className='signup' to="./signup">SignUp</Link></li>
+                    {/* <li><Link className='login' to="./login">Login</Link>|<Link className='signup' to="./signup">SignUp</Link></li> */}
                     <li>
                         {/* <img src="" alt="" /> FOR ICON */}
                         {/* <span className='cart_count'>3</span> */}
@@ -48,13 +48,13 @@ function Header() {
                                 <li><Button> Account</Button></li>
                                 <li><Button>Orders</Button></li>
                                 <li><Button><Link className='login' to="./login">Login</Link></Button></li>
-                                <li><Button>Sign UP</Button></li>
+                                <li><Button><Link className='signup' to="./signup">SignUp</Link></Button></li>
                                 <li><Button>Setting</Button></li>
                             </ul>
                         }
                     </li>
 
-                    
+
                 </ul>
             </div>
         </div>
