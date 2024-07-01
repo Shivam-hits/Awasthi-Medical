@@ -1,9 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./header.css"
 import logo from "../../images/Group 1.png"
 import { Link } from "react-router-dom"
 import LoginPage from "../../Pages/login.js"
+import Button from '@mui/material/Button';
+// import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+// import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined'; account icon
+
 function Header() {
+    const [isDropDown,setIsOpenDropDown] = useState(false);
+
   return (
     <div className='navbar'>
         <div className='navbar_terms'>
@@ -31,10 +37,24 @@ function Header() {
                         {/* <span className='cart_count'>3</span> */}
                         Cart
                     </li>
-                    <li>
+
+                    {/* brop down menu for account section on header  */}
+                    <li className='account' onClick={()=>setIsOpenDropDown(!isDropDown)}>
                         {/* <img src="" alt="" /> FOR ICON */}
                         Account
+                        {
+                            isDropDown !== false &&
+                                <ul className='account_bropdown_menu'>
+                                <li><Button> Account</Button></li>
+                                <li><Button>Orders</Button></li>
+                                <li><Button><Link className='login' to="./login">Login</Link></Button></li>
+                                <li><Button>Sign UP</Button></li>
+                                <li><Button>Setting</Button></li>
+                            </ul>
+                        }
                     </li>
+
+                    
                 </ul>
             </div>
         </div>

@@ -1,6 +1,6 @@
 body{
-    padding: 0px;
-    margin: 0px;
+    padding: 0px !important;
+    margin: 0px !important;
     font-family: 'Roboto',"poppins", sans-serif;
     /* font-family: "Clear Sans","Helvetica Neue","Helvetica","Arial","sans-serif"; */
 }
