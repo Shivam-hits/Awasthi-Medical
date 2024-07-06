@@ -84,18 +84,56 @@ function Header() {
         </div>
         <div className='navbar_all_options'>
             <ul>
-                <li>All medicine</li>
-                <li>Fitness</li>
-                <li>Ayurvadic</li>
-                <li>Baby Care</li>
-                <li>Surgical</li>
-                <li>Health Care Devices</li>
-                <li>Covid Essentials</li>
-                <li>Vitamins & Nutritions</li>
-                <li>Homeopathic</li>
-                <li>Covid Essentials</li>
-                <li>Vitamins & Nutritions</li>
-                <li>Homeopathic</li>
+                <li>
+                    <Button>
+                        All medicine
+                    </Button>
+                </li>
+                <li>
+                    <Button>
+                        Fitness
+                    </Button>
+                </li>
+                <li>
+                    <Button>
+                        Ayurvadic
+                    </Button>
+                </li>
+                <li>
+                    <Button>
+                        Baby Care
+                    </Button>
+                </li>
+                <li>
+                    <Button>
+                        Surgical
+                    </Button>
+                </li>
+                <li>
+                    <Button>
+                        Health Care Devices
+                    </Button>
+                </li>
+                <li>
+                    <Button>
+                        Homeopathic
+                    </Button>
+                </li>
+                <li>
+                    <Button>
+                        Covid Essentials
+                    </Button>
+                </li>
+                <li>
+                    <Button>
+                        Vitamins & Nutritions
+                    </Button>
+                </li>
+                <li>
+                    <Button>
+                        Homeopathic
+                    </Button>
+                </li>
             </ul>
         </div>
     </div>

@@ -15,11 +15,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding:0 43px ;
 }
 .navbar_logo{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 .service_list{
     font-weight: 500;
@@ -77,8 +79,8 @@
 }
 .account_bropdown_menu{
     position: absolute;
+    z-index: 1;
     /* top: 100%; */
-    
     right:8px;
     padding: 0px;
     margin: 0px;
@@ -92,7 +94,6 @@
 }
 .account_bropdown_menu li{
     width: 100%;
-    
     list-style: none;
 }
 .account_bropdown_menu li button{
@@ -103,3 +104,6 @@
     text-align: left !important;
     justify-content: flex-start !important;
 }
+/* Button{
+    color: black;
+} */

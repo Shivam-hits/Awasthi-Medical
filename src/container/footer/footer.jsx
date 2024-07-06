@@ -6,8 +6,8 @@ function Footer() {
   return (
     <div className='footer_container'>
         <div className="footer_container_first">
-            553A Awasthi Medical Hall , P.V.T. Krishna nagar colony, Bashratpur, Gorakhpur-273004 .
-            <p>Google map</p>
+            {/* MAP COMPONENT */}
+            <span>Map embaded link</span>
         </div>
         <div className='footer_container_second'>
 
