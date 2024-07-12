@@ -20,23 +20,27 @@ function Footer() {
         <div className='footer_container_second'>
 
             <div className='footer_services'>
+
                 <div className='Heading_of_section'>
                     <h2>Services</h2>
                 </div>
                 <div className="footer_catogaries_list">
-                    <ul className=''>
+
+                    <ul className='footer_catogaries-service ul'>
                         <li>Blood Test</li>
                         <li>Baby care</li>
                         <li>Health plan</li>
                         <li>Order Medicine</li>
                     </ul>
+
                 </div>
+
             </div>
 
             <div className='footer_customer_support'>
                 <h2>Policy Info</h2>
                 <div className='footer_catogaries_list'>
-                    <ul>
+                    <ul className='footer_catogaries-policy ul'>
                         <li>Terms and Conditions</li>
                         <li>Private policy</li>
                         <li>Return policy</li>
@@ -49,7 +53,7 @@ function Footer() {
             <div className="footer_about_us">
                 <h2>company</h2>
                 <div className='footer_catogaries_list'>
-                    <ul>
+                    <ul className='footer_catogarie-campany ul'>
                         <li>Sell at AMH</li>
                         <Link to="/About"><li>About As</li></Link>
                         <li>Careers</li>
