@@ -7,7 +7,7 @@ function Probox() {
     alert("added to cart");
   }
   return (
-    <Link to="/Productpage"  style={{ textDecoration: 'none' , color:"#FF6f61"}}>
+    <Link to="./Productpage" target='blank' style={{ textDecoration: 'none' , color:"#FF6f61"}}>
     <div className='ProductBox'>
       
       {/* product image */}
