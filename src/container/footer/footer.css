@@ -1,16 +1,25 @@
-.footer_container{
+.footer_first_half{
     display: flex;
     justify-content: space-evenly;
     height: 100%;
     width: 100%;
-    background-color: black;
     color: white;
     padding: 20px 0px;
     list-style-type: none;
 }
+.footer_container{
+    background-color: black;
+    color: white;
+}
 .footer_container_second{
     display: contents;
+    
 
+}
+.footer_second_half{
+    font-weight: 300;
+    font-size: small;
+    padding: 20px 33px 27px 33px;
 }
 .ul{
     padding: 0 0 0 7px;
