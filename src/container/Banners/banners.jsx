@@ -61,8 +61,6 @@
 //     </div>
 // )
 
-
-
 import React, { useState, useEffect, useRef } from 'react';
 import "./banners.css";
 import first from "../../assests/images/sliders/1st.jpg";
