@@ -65,13 +65,13 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import "./banners.css";
-import first from "../../images/1st.jpg";
-import second from "../../images/2nd.png";
-import third from "../../images/3rd.jpg";
-import fourth from "../../images/4th.jpg";
-import fifth from "../../images/5th.jpg";
-import sixth from "../../images/6th.jpg";
-import seventh from "../../images/7th.jpg";
+import first from "../../assests/images/sliders/1st.jpg";
+import second from "../../assests/images/sliders/2nd.png";
+import third from "../../assests/images/sliders/3rd.jpg";
+import fourth from "../../assests/images/sliders/4th.jpg";
+import fifth from "../../assests/images/sliders/5th.jpg";
+import sixth from "../../assests/images/sliders/6th.jpg";
+import seventh from "../../assests/images/sliders/7th.jpg";
  
 const images = [first, second, third, fourth, fifth, sixth, seventh];
 
@@ -104,8 +104,11 @@ function Banners() {
               // ref={el => (slideRefs.current[index] = el)}
             >
               <img src={image} alt={`Product ${index + 1}`} />
+              
+              {/* for prodect number and name */}
               {/* <h2>Product {index + 1}</h2>
               <p>Description of Product {index + 1}.</p> */}
+
             </div>
           ))}
         </div>

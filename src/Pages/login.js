@@ -1,11 +1,11 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import "./login.css"
-import img from "../../src/images/Login_img.png"
-import Logo from "../../src/images/Group 1.png"
-import google from "../../src/images/google.png"
-import facebook from "../../src/images/facebook.png"
-import twitter from "../../src/images/twitter.png"
+import img from "../../src/assests/images/Login_img.png"
+import Logo from "../../src/assests/images/Group 1.png"
+import google from "../../src/assests/images/google.png"
+import facebook from "../../src/assests/images/facebook.png"
+import twitter from "../../src/assests/images/twitter.png"
 
 function Login() {
   return (

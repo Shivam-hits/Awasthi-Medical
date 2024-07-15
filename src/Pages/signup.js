@@ -1,7 +1,7 @@
 import React from 'react'
 import "./login.css"
-import img from "../images/Login_img.png"
-import Logo from "../images/Group 1.png"
+import img from "../assests/images/Login_img.png"
+import Logo from "../assests/images/Group 1.png"
 import "./signup.css"
 import {useNavigate,Link} from "react-router-dom"
 function SignUp() {

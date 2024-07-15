@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from "../container/header/header.jsx"
 import "./About.css"
-import demo from "../images/people/peoo.jpg"
-import L1 from "../images/people/cto.jpg"
-import L2 from "../images/people/leader.jpg"
+import demo from "../assests/images/people/peoo.jpg"
+import L1 from "../assests/images/people/cto.jpg"
+import L2 from "../assests/images/people/leader.jpg"
 function About() {
   return (
     <div >

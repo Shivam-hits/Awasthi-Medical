@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import "./header.css"
-import logo from "../../images/Group 1.png"
+import logo from "../../assests/images/Group 1.png"
 import { Link } from "react-router-dom"
 import LoginPage from "../../Pages/login.js"
 import Button from '@mui/material/Button';

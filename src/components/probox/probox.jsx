@@ -1,14 +1,12 @@
 import React from 'react'
-import product from "../../images/Pantop.jpg"
+import product from "../../assests/images/pharma brands/Pantop.jpg"
 import "./probox.css"
 import {Link} from "react-router-dom"
 function Probox() {
-  function a(){
-    alert("added to cart");
-  }
+  
   return (
     <Link to="./Productpage" target='blank' style={{ textDecoration: 'none' , color:"#FF6f61"}}>
-    <div className='ProductBox'>
+    <div className='ProductBox' >
       
       {/* product image */}
       <div>

@@ -1,7 +1,7 @@
 import React from 'react'
-import product from "../../images/Pantop.jpg"
+import product from "../../assests/images/pharma brands/Pantop.jpg"
 import "./Productpage_upperHalf.css"
-import ads from "../../images/ads.png"
+import ads from "../../assests/images/ads.png"
 
 function Productpage_upperHalf(){
   return (
