@@ -17,10 +17,10 @@ function HomePage() {
         <Brands />
 
         <div className='products_browser_container'>
-        {Object.keys(util).map((key) => (
-          <Productbrowser key={key} products={util[key]} />
-        ))}
-      </div>
+          {Object.keys(util).map((key) => (
+            <Productbrowser key={key} products={util[key]} />
+          ))}
+        </div>
         
         <Footer />
     </div>
@@ -57,7 +57,5 @@ For the first iteration:
 For the second iteration:
 -) key is 'product2'.
 -) A Productbrowser component is created with key='product2' and products={util['product2']} (which is the array of products in product2).
-
-
 
 */
