@@ -1,47 +1,42 @@
-import React, { useState, useEffect } from 'react';
-import ProBox from "../../components/probox/probox.jsx";
+import React, { useState, useEffect, useRef } from 'react';
 import "./productbrow.css";
-function Productbrowser() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [itemWidth, setItemWidth] = useState(0);
-  const [totalItems, setTotalItems] = useState(0);
-  
-  useEffect(() => {
-    const slider = document.getElementById('productSlider');
-    const items = slider.getElementsByClassName('slider-item');
-    const itemWidth = items[0].offsetWidth ; // Including margin
-    setItemWidth(itemWidth);
-    setTotalItems(items.length);
-  }, [currentSlide]);
-  
-  const moveSlide = (direction) => {
-    const slider = document.getElementById('productSlider');
-    let newSlide = currentSlide + direction;
-    
-    if (newSlide >= 0 && newSlide <= (totalItems-7))
-    {
-      setCurrentSlide( newSlide);
-      slider.style.transform = `translateX(-${newSlide * itemWidth }px)`;
-    }
-  };
-  
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { Pagination, Navigation } from 'swiper/modules';
+
+export default function Productbrowser({products}) {
   return (
-    <div className='productbrowser'>
-      <p className='product_heading'>Products</p>
-      <div className='product-slider-container'>
-        <button className="product-prev" onClick={() => moveSlide(-1)}>&#10094;</button>
-
-        <div className='product-slider' id='productSlider'>
-          {Array.from({ length: 15 }, (_, i) => (
-            <div className='slider-item' key={i}>
-              <ProBox />
+    <>
+      <Swiper
+        slidesPerView={6}
+        spaceBetween={50}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        {products.map((product) => (
+          <SwiperSlide key={product.id}>
+            <div className="product">
+              <img className='product_image' src={product.image} alt="" />
+              <h2>{product.name}</h2>
+              <p>{product.description}</p>
             </div>
-          ))}
-        </div>
+          </SwiperSlide>
+        ))}
 
-        <button className="product-next" onClick={() => moveSlide(1)}>&#10095;</button>
-      </div>
-    </div>
+        <div className="swiper-button-prev"></div>
+        <div className="swiper-button-next"></div>
+      </Swiper>
+    </>
   );
 }
-export default Productbrowser;
